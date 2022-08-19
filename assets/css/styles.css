@@ -1,0 +1,110 @@
+.nav__logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+.nav__p {
+  font-size: 1.3em;
+  color: darkorange;
+}
+
+.nav__a {
+  font-size: 1.2em;
+}
+
+.nav__active {
+  font-weight: bold !important;
+  color: darkorange !important;
+}
+
+.nav__a:hover {
+  font-weight: bold !important;
+  text-decoration: underline !important;
+  color: darkorange !important;
+}
+
+/* Pages */
+
+.title {
+  padding: 50px;
+  font-size: 3.5rem;
+  color: darkorange;
+}
+
+.title,
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content p {
+  font-size: 1.3rem;
+}
+
+/* page Portfólio */
+
+.carousel__custom {
+  margin: 0 auto;
+  width: 600px;
+  height: 300px;
+}
+
+.carousel__link {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+  gap: 10px;
+  text-decoration: none;
+  color: darkorange;
+  justify-content: center;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.carousel__link:hover {
+  color: orangered;
+  text-decoration: underline;
+}
+
+.carousel__link__custom {
+  margin-top: 50px;
+  font-size: 2rem;
+  color: orange;
+}
+
+/* Page Contact */
+
+.Container__contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.list__Contact {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0 0 200px;
+}
+
+.list__Contact li {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.list__Contact li a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  font-weight: 100;
+}
+
+.list__Contact li a:hover {
+  text-decoration: underline;
+  color: darkorange;
+}
